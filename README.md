@@ -22,8 +22,7 @@ Two chunking strategies are compared, each with different implications for runti
 * Document-level chunking: pages are merged before segmentation, allowing cross-page context but requiring metadata recovery
 ![Document-level chunking Overview](figures/Document_level_chunking.drawio.png)
 * Page-level chunking: chunks are created within page boundaries, preserving metadata by design and reducing overhead
-![Page-level chunking Overview](figures/Page-level chunking.drawio.png)
-
+![Page-level chunking Overview](figures/Page-level_chunking.drawio.png)
 
 ## 🎯 Data Science Objectives
 1. Quantify trade-offs between computational efficiency and answer quality
